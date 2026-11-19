@@ -33,6 +33,8 @@ For each source and each bucket (business hours vs. off hours), the model comput
 ## Run it from a clean clone
 Requires Python 3.10+ and R 4.x with `DBI` and `RSQLite`.
 
+> **R install tip (macOS):** use the installer from [cran.r-project.org](https://cran.r-project.org/bin/macosx/). It allows `install.packages(c("DBI", "RSQLite"), type = "binary")`, which takes seconds. Homebrew's R has no binary packages, so they compile from source, and those builds can't be mixed with CRAN's R.
+
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
