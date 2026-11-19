@@ -60,7 +60,7 @@ Run on the seeded sample (14 days, 8 hosts, 12 injected incidents, 2,643 host-ho
 | **6 (used)** | 3 | 0.84 | 1.00 |
 | 8+ | 0 | 1.00 | 1.00 |
 
-Every injected incident scored 45 or higher, so these synthetic attacks are far easier to detect than real ones. I picked 6 instead of 8+ so the evaluation still shows realistic false positives. The threshold was chosen on the same data it is scored on, so treat these numbers as a demonstration of method, not expected real-world performance.
+Every injected incident scored about 45 or higher, so these synthetic attacks are far easier to detect than real ones. I picked 6 instead of 8+ so the evaluation still shows realistic false positives. The threshold was chosen on the same data it is scored on, so treat these numbers as a demonstration of method, not expected real-world performance.
 
 **Where it over-flags:** the 3 false positives are evening hours (20:00-21:00) where a normal byte or volume spike lands in the off-hours baseline. At the default 3.5, heavy-tailed `bytes_sent` caused most of the 54 false alarms. See `output/errors_to_review.csv`.
 
