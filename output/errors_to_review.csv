@@ -1,0 +1,4 @@
+"hour_start","source_id","event_count","total_bytes","failed_auth","anomaly_score","driver","injected_events","outcome"
+"2026-01-05T20:00:00","host-05",14,45895,2,6.07041683528936,"event_count",0,"false_positive"
+"2026-01-09T21:00:00","host-08",7,75218,0,7.02941457006164,"total_bytes",0,"false_positive"
+"2026-01-11T20:00:00","host-03",6,97688,0,6.28635392639497,"total_bytes",0,"false_positive"

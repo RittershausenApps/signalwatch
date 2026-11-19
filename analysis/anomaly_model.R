@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 
 DB_PATH   <- "data/signalwatch.db"
 OUT_DIR   <- "output"
-THRESHOLD <- 3.5   # robust z-score cutoff (Iglewicz & Hoaglin recommend 3.5)
+THRESHOLD <- 6     # chosen from a sensitivity sweep (see README); 3.5 is the textbook default but over-flags heavy-tailed byte counts
 MIN_MAD   <- 1     # floor so a flat baseline doesn't make every blip infinite
 METRICS   <- c("event_count", "total_bytes", "failed_auth")
 

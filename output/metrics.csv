@@ -1,0 +1,2 @@
+"threshold","hours_scored","true_positives","false_positives","false_negatives","true_negatives","precision","recall","f1"
+6,2643,16,3,0,2624,0.842,1,0.914

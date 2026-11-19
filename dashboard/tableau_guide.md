@@ -12,7 +12,7 @@
 | Sheet | Build |
 |---|---|
 | **Event volume over time** | Columns `hour_start` (continuous, hour); Rows `SUM(event_count)`; Color `source_id`. |
-| **Anomaly score timeline** | Columns `hour_start`; Rows `MAX(anomaly_score)`; add a reference line at 3.5; Color by `outcome`. |
+| **Anomaly score timeline** | Columns `hour_start`; Rows `MAX(anomaly_score)`; add a reference line at 6; Color by `outcome`. |
 | **Outcome counts** | Rows `outcome`; Columns `COUNT(hour_start)`; label values. Shows TP / FP / FN / TN. |
 | **Anomaly drivers** | Filter `flagged = 1`; Rows `driver`; Columns `COUNT`; shows whether volume, bytes or failed logins triggered the flag. |
 | **Hour-of-day heatmap** | Columns `hour_of_day`; Rows `day_of_week`; Color `AVG(anomaly_score)`. |

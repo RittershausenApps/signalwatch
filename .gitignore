@@ -5,3 +5,4 @@ data/signalwatch.db
 data/rejected_rows.csv
 .Rhistory
 .DS_Store
+!output/
